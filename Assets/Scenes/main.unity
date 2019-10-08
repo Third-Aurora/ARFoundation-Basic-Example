@@ -613,7 +613,7 @@ RectTransform:
   m_GameObject: {fileID: 1015913421}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1381187254}
   m_Father: {fileID: 155201672}
@@ -621,8 +621,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 101, y: -100}
-  m_SizeDelta: {x: 160, y: 53.8}
+  m_AnchoredPosition: {x: 100, y: -100}
+  m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1015913423
 MonoBehaviour:
@@ -696,7 +696,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e5795e8ada0743f5a4d6ea36804c05a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  toggle: {fileID: 1015913423}
   planeManager: {fileID: 1191346669}
   pointCloudManager: {fileID: 1191346670}
 --- !u!1 &1191346666
@@ -986,8 +985,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -50, y: 0}
-  m_SizeDelta: {x: -100, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1381187255
 MonoBehaviour:
